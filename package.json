@@ -1,0 +1,19 @@
+{
+  "name": "mean-test",
+  "version": "1.0.0",
+  "description": "mean test app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mean",
+    "test"
+  ],
+  "author": "nephi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
