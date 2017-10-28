@@ -14,6 +14,16 @@
   "author": "nephi",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
-  }
+    "express": "^4.16.2",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimble33/Mean-Test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nimble33/Mean-Test/issues"
+  },
+  "homepage": "https://github.com/nimble33/Mean-Test#readme"
 }
