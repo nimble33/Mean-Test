@@ -8,7 +8,7 @@ var router = express.Router();
 var appRoutes = require('./app/routes/api')(router);
 var path = require('path');
 
-app.use(morgan('dev'));
+app.use(morgan('dev')); //logger
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public')) //frontend
 app.use('/api',appRoutes) //Backend routes
